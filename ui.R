@@ -14,13 +14,13 @@ shinyUI(fluidPage(
                   min = 1, 
                   max = 15,
                   step = 1,
-                  value = 5),
+                  value = 10),
       sliderInput("K",
                   "Number of draws (without replacement):",
                   min = 1, 
                   max = 20,
                   step = 1,
-                  value = 3)
+                  value = 10)
     ),
 
     # Show a plot of the generated distribution
